@@ -23,6 +23,6 @@ public class Account {
 	public static void main(String args[]) throws SQLException, ClassNotFoundException, InstantiationException, IllegalAccessException{
 		Account ac=new Account();
 		Account acc=ac.createAccount();
-		//System.out.println(acc);
+		System.out.println(acc);
 	}
 }
